@@ -1,5 +1,5 @@
 {
-    "name": "BaCeTo/drone-test-bucket-sort",
+    "name": "vaseto/drone-test-bucket-sort",
     "autoload": {
         "psr-4": {
             "LifetimeBucketSort\\": "src/"
