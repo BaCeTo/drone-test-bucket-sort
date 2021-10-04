@@ -1,5 +1,5 @@
 {
-    "name": "Drone-CICD-lifetime-bucket-sort",
+    "name": "BaCeTo/drone-test-bucket-sort",
     "autoload": {
         "psr-4": {
             "LifetimeBucketSort\\": "src/"
