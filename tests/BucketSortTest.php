@@ -29,7 +29,7 @@ class BucketSortTest extends TestCase
     {
         $bucketSort = new BucketSort($this->getBucketSettings());
 
-        $bucketId = $bucketSort->getBucketId(5);
+        $bucketId = $bucketSort->getBucketId(1);
         $this->assertEquals(1, $bucketId);
 
         $bucketId = $bucketSort->getBucketId(1);
