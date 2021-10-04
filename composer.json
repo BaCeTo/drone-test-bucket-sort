@@ -1,5 +1,5 @@
 {
-    "name": "BaCeTo/Drone-CICD-lifetime-bucket-sort",
+    "name": "Drone-CICD-lifetime-bucket-sort",
     "autoload": {
         "psr-4": {
             "LifetimeBucketSort\\": "src/"
@@ -15,5 +15,8 @@
         "classmap": [
             "tests/"
         ]
+    },
+    "scripts": {
+        "run-test": "./vendor/bin/phpunit"
     }
 }
