@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Validate composer.json and composer.lock
-      run: composer validate --strict
+      run: composer validate --no-check-publish
 
     - name: Cache Composer packages
       id: composer-cache
@@ -33,4 +33,4 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Run test suite
-      run: composer run-script run-tests
+      run: composer run-script test
