@@ -1,0 +1,4 @@
+/vendor
+.idea/
+/tests/reports
+.DS_Store

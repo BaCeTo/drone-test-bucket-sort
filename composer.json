@@ -1,0 +1,19 @@
+{
+    "name": "BaCeTo/Drone-CICD-lifetime-bucket-sort",
+    "autoload": {
+        "psr-4": {
+            "LifetimeBucketSort\\": "src/"
+        }
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.4",
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/php-code-coverage": "^6.1"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
